@@ -2,3 +2,9 @@ secrets.json
 db.sqlite3
 /.media
 /.static
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
+*/*/*/*/__pycache__/
+.python-version
+debug.log
