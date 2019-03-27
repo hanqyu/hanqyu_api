@@ -3,12 +3,12 @@ from django.contrib import admin
 from rest_framework import routers
 from rest_framework_swagger.views import get_swagger_view
 
-import hanqyu_api.api_test.api
+import api_test.api
 
 app_name='api_test'
 
 router = routers.DefaultRouter()
-router.register('api_tests', hanqyu_api.api_test.api.TestViewSet)
+router.register('api_tests', api_test.api.TestViewSet)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
