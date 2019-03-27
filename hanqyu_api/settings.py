@@ -42,7 +42,7 @@ SECRET_KEY = get_secret("SECRET_KEY")
 DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', 'localhost', 'api-test.hanqyu.com',
-                 'ec2-13-209-111-182.ap-northeast-2.compute.amazonaws.com', '13.209.111.182']
+                 '*.amazonaws.com', '13.209.111.182']
 
 
 # Application definition
